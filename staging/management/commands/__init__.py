@@ -2,7 +2,7 @@ from django.core.management import BaseCommand
 
 
 class StagingBaseCommand(BaseCommand):
-    do_system_checks = False
+    do_system_checks = True
 
     def __init__(self):
         super(StagingBaseCommand, self).__init__()

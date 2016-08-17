@@ -9,7 +9,7 @@ from staging.management.commands import StagingBaseCommand
 
 
 class Command(StagingBaseCommand):
-    do_system_checks = True
+
     option_list = BaseCommand.option_list + (
         make_option('--env', '-e', dest='env',
                     help='enviroment'),

@@ -16,7 +16,6 @@ else:
 
 
 class Command(StagingBaseCommand):
-    do_system_checks = True
 
     help = (u'Load all fixtures with staging_ prefix. '
             u'If env is defined: fixtures with {{ env }}_staging_ will be loaded and the end, '

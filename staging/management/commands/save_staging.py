@@ -24,7 +24,7 @@ else:
 
 
 class Command(StagingBaseCommand):
-    do_system_checks = True
+
     help = (u'This command saves data from DB to staging fixtures. '
             u'Example: \n./manage.py save_staging auth \n'
             u'./manage.py save_staging auth.User\n'
